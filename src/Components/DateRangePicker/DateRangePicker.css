@@ -1,0 +1,54 @@
+.dateRangePicker {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 12px 16px;
+    background-color: #f9f9ff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 48rem;
+    margin: 1.5rem auto;
+}
+
+.label {
+    font-size: 18px;
+    font-weight: 600;
+    color: #4a4a8e;
+    margin-right: 1rem;
+}
+
+.dateInput {
+    padding: 8px 12px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #333;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    background-color: #e7e7fc;
+    width: 140px;
+}
+
+.dateInput:hover {
+    background-color: #dedafc;
+}
+
+.dateInput:focus {
+    outline: none;
+    border-color: #6a6aff;
+    background-color: #dedafc;
+    box-shadow: 0 0 8px rgba(106, 106, 255, 0.4);
+}
+
+.dateRangePicker span {
+    font-size: 20px;
+    color: #6a6aff;
+    font-weight: bold;
+}
+
+.dateRangePicker .label {
+    display: flex;
+    align-items: center;
+    color: #4a4a8e;
+}
